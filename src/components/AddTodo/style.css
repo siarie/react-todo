@@ -1,0 +1,25 @@
+.add-todo-form input[type='text'] {
+  width: 100%;
+  font-size: 1.2rem;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 0.8rem;
+  transition: box-shadow 0.2s ease;
+  margin-bottom: 1rem;
+}
+
+.add-todo-form input[type='text']:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.add-todo-form input[type='text']:focus {
+  outline: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.add-todo-form input[type='text']::placeholder {
+  /* font-weight: bold; */
+  font-style: italic;
+  color: #646464;
+}

@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #209cee;
+  height: 100vh;
+  margin: 0;
+  padding: 5rem 0;
+  padding-bottom: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.box {
+  background-color: #e8e8e8;
+  margin: auto;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 0.5rem;
+  min-height: 225px;
+  padding: 1rem;
+  max-height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  position: relative;
+}

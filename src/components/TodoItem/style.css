@@ -1,0 +1,35 @@
+.todo-item {
+  display: flex;
+  background-color: #fff;
+  margin: 1rem 0;
+  border-radius: 4px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.todo-item.edit {
+  padding: 0;
+  box-shadow: 0 4px 8px rgba(32, 156, 238, 0.5);
+}
+
+.todo-check {
+  margin-right: 1rem;
+}
+
+.todo-text {
+  margin-right: auto;
+}
+
+.todo-remove {
+  color: red;
+}
+
+.todo-edit {
+  color: orange;
+}
+
+.todo-action span {
+  cursor: pointer;
+  margin-left: 0.8rem;
+}

@@ -1,0 +1,31 @@
+.edit-todo {
+  display: flex;
+  width: 100%;
+}
+
+.edit-todo form {
+  flex: 1;
+}
+
+.edit-todo input {
+  padding: 1rem;
+  border: none;
+  width: 100%;
+}
+
+.edit-todo input:focus {
+  outline: none;
+  border: none;
+}
+
+.edit-toggle {
+  border: none;
+  background-color: #209cee;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.edit-toggle:hover {
+  background-color: #0084db;
+}
